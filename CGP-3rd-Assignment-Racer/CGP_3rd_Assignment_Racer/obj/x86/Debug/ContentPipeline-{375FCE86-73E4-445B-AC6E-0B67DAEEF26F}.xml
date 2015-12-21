@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Assets\Audio\boing_spring.wav</Source>
+      <Name>Assets\Audio\boing_spring</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Audio\boing_spring.xnb</Output>
+      <Time>2015-12-21T13:16:20.0630787+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\boing_x.wav</Source>
+      <Name>Assets\Audio\boing_x</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Audio\boing_x.xnb</Output>
+      <Time>2015-12-21T13:16:20.0700835+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\start.wav</Source>
+      <Name>Assets\Audio\start</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Audio\start.xnb</Output>
+      <Time>2015-12-21T13:16:20.082092+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Background\Foliage\cactus.png</Source>
+      <Name>Assets\Textures\Background\Foliage\cactus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Background\Foliage\cactus.xnb</Output>
+      <Time>2015-12-21T13:16:20.2301969+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Background\Sky\cloud1.png</Source>
+      <Name>Assets\Textures\Background\Sky\cloud1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Background\Sky\cloud1.xnb</Output>
+      <Time>2015-12-21T13:16:20.2402045+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Background\Sky\cloud2.png</Source>
+      <Name>Assets\Textures\Background\Sky\cloud2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Background\Sky\cloud2.xnb</Output>
+      <Time>2015-12-21T13:16:20.249212+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Background\Sky\cloud3.png</Source>
+      <Name>Assets\Textures\Background\Sky\cloud3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Background\Sky\cloud3.xnb</Output>
+      <Time>2015-12-21T13:16:20.2592173+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Background\Terrain\grass.png</Source>
+      <Name>Assets\Textures\Background\Terrain\grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Background\Terrain\grass.xnb</Output>
+      <Time>2015-12-21T13:16:20.2692267+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Background\Terrain\grassCenter.png</Source>
+      <Name>Assets\Textures\Background\Terrain\grassCenter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Background\Terrain\grassCenter.xnb</Output>
+      <Time>2015-12-21T13:16:20.2782315+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Background\Terrain\grassCliffLeft.png</Source>
+      <Name>Assets\Textures\Background\Terrain\grassCliffLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Background\Terrain\grassCliffLeft.xnb</Output>
+      <Time>2015-12-21T13:16:20.2872377+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Background\Terrain\grassCliffRight.png</Source>
+      <Name>Assets\Textures\Background\Terrain\grassCliffRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Background\Terrain\grassCliffRight.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Background\Terrain\grassHalfLeft.png</Source>
+      <Name>Assets\Textures\Background\Terrain\grassHalfLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Background\Terrain\grassHalfLeft.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Background\Terrain\grassHalfMid.png</Source>
+      <Name>Assets\Textures\Background\Terrain\grassHalfMid</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Background\Terrain\grassHalfMid.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Background\Terrain\grassHalfRight.png</Source>
+      <Name>Assets\Textures\Background\Terrain\grassHalfRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Background\Terrain\grassHalfRight.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Background\Terrain\liquidWater.png</Source>
+      <Name>Assets\Textures\Background\Terrain\liquidWater</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Background\Terrain\liquidWater.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Background\Terrain\liquidWaterTop.png</Source>
+      <Name>Assets\Textures\Background\Terrain\liquidWaterTop</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Background\Terrain\liquidWaterTop.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Character\bullet.PNG</Source>
+      <Name>Assets\Textures\Character\bullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Character\bullet.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Character\enemy1.png</Source>
+      <Name>Assets\Textures\Character\enemy1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Character\enemy1.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Character\ship.png</Source>
+      <Name>Assets\Textures\Character\ship</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Character\ship.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\debug.png</Source>
+      <Name>Assets\Textures\Debug\debug</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Debug\debug.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Debug\debugrectangle.png</Source>
+      <Name>Assets\Textures\Debug\debugrectangle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Debug\debugrectangle.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Levels\level1.png</Source>
+      <Name>Assets\Textures\Levels\level1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Levels\level1.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\audiomenu.jpg</Source>
+      <Name>Assets\Textures\Menu\audiomenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Menu\audiomenu.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\mainmenu.PNG</Source>
+      <Name>Assets\Textures\Menu\mainmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Menu\mainmenu.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\mainmenu2.png</Source>
+      <Name>Assets\Textures\Menu\mainmenu2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Menu\mainmenu2.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\white.png</Source>
+      <Name>Assets\Textures\Menu\white</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Menu\white.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Props\platform1.png</Source>
+      <Name>Assets\Textures\Props\platform1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Props\platform1.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Props\platform2.png</Source>
+      <Name>Assets\Textures\Props\platform2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Props\platform2.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Character\enemy.tga</Source>
+      <Name>Assets\Textures\Character\enemy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Textures\Character\enemy.xnb</Output>
+      <Time>2015-12-21T13:16:20+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Fonts\debug.spritefont</Source>
+      <Name>Assets\Fonts\debug</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Fonts\debug.xnb</Output>
+      <Time>2015-12-21T13:16:20.0880958+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Fonts\hud.spritefont</Source>
+      <Name>Assets\Fonts\hud</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Fonts\hud.xnb</Output>
+      <Time>2015-12-21T13:16:20.095101+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Fonts\menu.spritefont</Source>
+      <Name>Assets\Fonts\menu</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\Assets\Fonts\menu.xnb</Output>
+      <Time>2015-12-21T13:16:20.1081105+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{375FCE86-73E4-445B-AC6E-0B67DAEEF26F}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_RacerContent\</RootDirectory>
+      <LoggerRootDirectory>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\Dropbox\Studium_Trier\Console Games Programming\CGP-3rd-Assignment-Racer\CGP-3rd-Assignment-Racer\CGP_3rd_Assignment_Racer\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-11-10T15:22:02.5853864+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectGuid>{27D3E1CA-C4C4-4725-8368-561AE05B545F}</ProjectGuid>
+    <ProjectGuid>{1825BA3C-789F-423A-BD40-30A95DDA790D}</ProjectGuid>
     <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -14,7 +14,7 @@
     <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
     <XnaPlatform>Windows</XnaPlatform>
     <XnaProfile>Reach</XnaProfile>
-    <XnaCrossPlatformGroupID>25fe05e8-40c5-4230-8fc1-68c50b74d846</XnaCrossPlatformGroupID>
+    <XnaCrossPlatformGroupID>c5f0b586-8dc1-4a7f-a44c-8ca3bb69319e</XnaCrossPlatformGroupID>
     <XnaOutputType>Game</XnaOutputType>
     <ApplicationIcon>Game.ico</ApplicationIcon>
     <Thumbnail>GameThumbnail.png</Thumbnail>
@@ -72,6 +72,68 @@
     <Reference Include="System.Net" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App\Data\AppData.cs" />
+    <Compile Include="App\Data\DebugData.cs" />
+    <Compile Include="App\Data\KeyData.cs" />
+    <Compile Include="App\Data\MenuData.cs" />
+    <Compile Include="App\Main.cs" />
+    <Compile Include="GDLibrary\Camera\Camera2D.cs" />
+    <Compile Include="GDLibrary\Controllers\Animation\AnimationController.cs" />
+    <Compile Include="GDLibrary\Controllers\Animation\AnimationData.cs" />
+    <Compile Include="GDLibrary\Controllers\Camera\CameraController.cs" />
+    <Compile Include="GDLibrary\Controllers\Camera\TargetCameraController.cs" />
+    <Compile Include="GDLibrary\Controllers\ColorLerpController.cs" />
+    <Compile Include="GDLibrary\Controllers\Controller.cs" />
+    <Compile Include="GDLibrary\Controllers\ControllerList.cs" />
+    <Compile Include="GDLibrary\Controllers\CurveController.cs" />
+    <Compile Include="GDLibrary\Controllers\Platforms\DistanceActivatedController.cs" />
+    <Compile Include="GDLibrary\Controllers\PositionLerpController.cs" />
+    <Compile Include="GDLibrary\Controllers\RotationLerpController.cs" />
+    <Compile Include="GDLibrary\Controllers\ScaleLerpController.cs" />
+    <Compile Include="GDLibrary\Core\CameraTransform2D.cs" />
+    <Compile Include="GDLibrary\Core\TextureParameters.cs" />
+    <Compile Include="GDLibrary\Core\Transform2D.cs" />
+    <Compile Include="GDLibrary\Curve\Curve1D.cs" />
+    <Compile Include="GDLibrary\Curve\Curve2D.cs" />
+    <Compile Include="GDLibrary\Curve\Transform2DCurve.cs" />
+    <Compile Include="GDLibrary\Debug\DebugDrawer2D.cs" />
+    <Compile Include="GDLibrary\Dictionary\AssetDictionary.cs" />
+    <Compile Include="GDLibrary\Dictionary\GenericDictionary.cs" />
+    <Compile Include="GDLibrary\Enums\ActorType.cs" />
+    <Compile Include="GDLibrary\Enums\AnimationStatusType.cs" />
+    <Compile Include="GDLibrary\Enums\CameraLayoutType.cs" />
+    <Compile Include="GDLibrary\Enums\ControllerType.cs" />
+    <Compile Include="GDLibrary\Enums\DebugOptionsType.cs" />
+    <Compile Include="GDLibrary\Enums\EventType.cs" />
+    <Compile Include="GDLibrary\Enums\ResolutionType.cs" />
+    <Compile Include="GDLibrary\Events\EventData.cs" />
+    <Compile Include="GDLibrary\Events\EventDispatcher.cs" />
+    <Compile Include="GDLibrary\Interfaces\IActor.cs" />
+    <Compile Include="GDLibrary\Interfaces\IController.cs" />
+    <Compile Include="GDLibrary\Managers\Camera\CameraManager.cs" />
+    <Compile Include="GDLibrary\Managers\Input\KeyboardManager.cs" />
+    <Compile Include="GDLibrary\Managers\Input\MouseManager.cs" />
+    <Compile Include="GDLibrary\Managers\Menu\MenuItem.cs" />
+    <Compile Include="GDLibrary\Managers\Menu\MenuManager.cs" />
+    <Compile Include="GDLibrary\Managers\Screen\BSPLayoutType.cs" />
+    <Compile Include="GDLibrary\Managers\Screen\BSPSector.cs" />
+    <Compile Include="GDLibrary\Managers\Screen\ScreenManager.cs" />
+    <Compile Include="GDLibrary\Managers\Screen\ScreenResolution.cs" />
+    <Compile Include="GDLibrary\Managers\Sound\SoundEffectInfo.cs" />
+    <Compile Include="GDLibrary\Managers\Sound\SoundManager.cs" />
+    <Compile Include="GDLibrary\Managers\Sprite\SpriteManager.cs" />
+    <Compile Include="GDLibrary\Pathfinding\Edge.cs" />
+    <Compile Include="GDLibrary\Pathfinding\Node.cs" />
+    <Compile Include="GDLibrary\Pathfinding\PathFindingEngine.cs" />
+    <Compile Include="GDLibrary\Serialization\SerialisationUtility.cs" />
+    <Compile Include="GDLibrary\Sprite\PawnSprite.cs" />
+    <Compile Include="GDLibrary\Sprite\Sprite.cs" />
+    <Compile Include="GDLibrary\Utilities\CollisionUtility.cs" />
+    <Compile Include="GDLibrary\Utilities\ColorUtility.cs" />
+    <Compile Include="GDLibrary\Utilities\Data Types\Integer2.cs" />
+    <Compile Include="GDLibrary\Utilities\LevelLoader.cs" />
+    <Compile Include="GDLibrary\Utilities\MathUtility.cs" />
+    <Compile Include="GDLibrary\Utilities\StringUtility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
